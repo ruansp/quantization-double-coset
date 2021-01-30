@@ -1,4 +1,6 @@
-function voronoi_ico_ico_double_coset
+close all; clear; clc;
+
+%% Conceptual plot for F_{H\SO(3)/K}, H -> Icosahedral symmetry group, K -> gHg^{-1}
 
 n = 50;
 ruby = [255, 0, 0] / 255;
@@ -346,8 +348,6 @@ map = [summer(200); repmat(ruby, 200, 1)];
 
 colormap (map);
 
-end
-
 function theta_val = theta (R)
 
 theta_val = real (acos (0.5 * complex (trace (R) - 1.0)));
@@ -483,5 +483,4 @@ else
  x = 0.5 * [R(3, 2) - R(2, 3); R(1, 3) - R(3, 1); R(2, 1) - R(1, 2)] * (theta / sin (theta));
  
 end
-    
 end

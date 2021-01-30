@@ -1,4 +1,6 @@
-function voronoi_ico_wedge_double_coset
+close all; clear; clc;
+
+%% Conceptual plot for F_{H\SO(3)/H}, H -> Icosahedral symmetry group
 
 ruby = [255, 0, 0] / 255;
 % -------------------------------------------------------------------------
@@ -223,5 +225,3 @@ set (gca, 'Linewidth', 1.2);
 map = [summer(200); repmat(ruby, 200, 1)];
 
 colormap (map);
-
-end

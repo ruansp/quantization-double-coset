@@ -1,4 +1,6 @@
-function voronoi_ico_tetra_double_coset()
+close all; clear; clc;
+
+%% Conceptual plot for F_{H\SO(3)/K}, H -> Icosahedral symmetry group, K -> tetrahedral symmetry group
 
 n = 50;
 ruby = [255, 0, 0] / 255;
@@ -346,7 +348,6 @@ map = [summer(200); repmat(ruby, 200, 1)];
 
 colormap (map);
 %colorbar;
-end
 
 function theta_val = theta (R)
 
