@@ -1,4 +1,6 @@
 # Quantizing Euclidean motions via double-coset decomposition
+[![View Double-coset decomposition for Euclidean motion group on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/132668-double-coset-decomposition-for-euclidean-motion-group)
+
 Matlab implementation for quantizing Euclideam motions using double-coset decomposition
 
 ## Authors:
